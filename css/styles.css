@@ -1,3 +1,7 @@
+* { box-sizing: border-box;}
+
+
+
 h1{
     color: blue;
     font-size: 75px;
@@ -8,4 +12,10 @@ p{
 }
 a{
     color: blueviolet;
+}
+.section{
+    padding: 40px;
+    margin:  10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
 }
