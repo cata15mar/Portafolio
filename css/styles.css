@@ -38,3 +38,9 @@ footer{
     padding:  20px;
     text-align: center;
 }
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
