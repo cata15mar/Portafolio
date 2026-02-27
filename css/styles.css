@@ -4,15 +4,20 @@
 
 h1{
     color: blue;
-    font-size: 75px;
+    font-size: 45px;
 }
 p{
     color: #F54927;
     font-size: 20px;
 }
 a{
-    color: blueviolet;
+    color: #3498db;
+    transition:  color 0.3s ease;
 }
+a:hover{
+  color: #2980b9; 
+}
+
 .section{
     padding: 40px;
     margin:  10px 0;
@@ -43,6 +48,13 @@ footer{
     display: flex;
     gap: 20px;
     justify-content: center;
+}
+
+img{
+    max-width:  15%;
+    height: auto;
+    border-radius:  10px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0),0.1;
 }
 
 @media (max-width: 600px) {
